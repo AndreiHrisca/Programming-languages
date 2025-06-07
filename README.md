@@ -1,6 +1,6 @@
 📚 Playground de Lenguajes de Programación
 
-Este repositorio reúne pequeños Hello World en varios lenguajes populares. La idea es que sirva como
+Este repositorio reúne pequeños tutoriales y guías en varios lenguajes populares. La idea es que sirva como
 laboratorio personal para comparar sintaxis, flujos de compilación/ejecución y buenas prácticas en
 cada ecosistema.
 
@@ -141,6 +141,22 @@ Bibliografía recomendada
 	•	Programming TypeScript — Boris Cherny
 	•	Documentación oficial: https://www.typescriptlang.org/docs
 
+⸻
+
+Bash
+
+	
+Descripción breve
+Intérprete de comandos y lenguaje de scripting estándar en la mayoría de sistemas Unix/Linux.
+
+Casos de uso comunes
+Automatización de tareas, instalación de software, scripts de despliegue, pipelines CI/CD.
+
+Pros
+Disponible de forma predeterminada en casi todos los entornos Unix, sintaxis concisa para operaciones de sistema, fácil integración con utilidades POSIX.
+
+Contras
+Sintaxis propensa a errores sutiles (espacios, comillas), debugging limitado, no apto para lógica compleja o gran escala.
 ⸻
 
 Cómo ejecutar los ejemplos
