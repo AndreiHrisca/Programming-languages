@@ -146,36 +146,5 @@ Bibliografía recomendada
 Bash
 
 	
-Descripción breve
-Intérprete de comandos y lenguaje de scripting estándar en la mayoría de sistemas Unix/Linux.
 
-Casos de uso comunes
-Automatización de tareas, instalación de software, scripts de despliegue, pipelines CI/CD.
-
-Pros
-Disponible de forma predeterminada en casi todos los entornos Unix, sintaxis concisa para operaciones de sistema, fácil integración con utilidades POSIX.
-
-Contras
-Sintaxis propensa a errores sutiles (espacios, comillas), debugging limitado, no apto para lógica compleja o gran escala.
-⸻
-
-Cómo ejecutar los ejemplos
-	1.	Entra en el directorio de cada lenguaje.
-	2.	Compila o ejecuta el archivo hello-world.* según corresponda. Ejemplos:
-
-# C++
-g++ hello-world.cpp -o hello && ./hello
-
-# Python
-python3 hello-world.py
-
-# Java
-javac HelloWorld.java && java HelloWorld
-
-
-	3.	Consulta la documentación de cada sección para detalles específicos.
-
-⸻
-
-Licencia
 -
