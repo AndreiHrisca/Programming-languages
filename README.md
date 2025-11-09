@@ -1,150 +1,280 @@
-📚 Playground de Lenguajes de Programación
+# Programming Languages Playground
 
-Este repositorio reúne pequeños tutoriales y guías en varios lenguajes populares. La idea es que sirva como
-laboratorio personal para comparar sintaxis, flujos de compilación/ejecución y buenas prácticas en
-cada ecosistema.
+This repository gathers small tutorials and guides for several popular programming languages.  
+The goal is to serve as a personal lab to compare syntax, compilation/execution flows,  
+and best practices across different ecosystems.
 
-Lenguajes incluidos
-	•	C#
-	•	C++
-	•	Java
-	•	JavaScript
-	•	PHP
-	•	Python
-	•	Ruby
-	•	Swift
-	•	TypeScript
+## Included Languages
+- [🧩 C#](#🧩-c)
+- [⚙️ C++](#⚙️-c)
+- [☕ Java](#☕-java)
+- [🌐 JavaScript](#🌐-javascript)
+- [🐘 PHP](#🐘-php)
+- [🐍 Python](#🐍-python)
+- [💎 Ruby](#💎-ruby)
+- [🍏 Swift](#🍏-swift)
+- [🧠 TypeScript](#🧠-typescript)
+- [🐚 Bash](#🐚-bash)
 
-⸻
+<br>
+<hr>
 
-C#
+### 🧩 C#
 
+**Short Description**  
+Modern, multi-paradigm programming language created by Microsoft and running on the .NET platform.
+
+**Common Use Cases**  
+Desktop applications (WPF/WinUI), web APIs with ASP.NET, games in Unity, cloud services on Azure.
+
+**Pros**  
+- Strong and safe typing  
+- Excellent tooling (Visual Studio, Rider)  
+- Native performance with JIT + AOT  
+- Cross-platform with .NET Core  
+
+**Cons**  
+- Ecosystem still closely tied to Microsoft  
+- Heavy runtime for small scripts  
+- Steep learning curve for .NET  
+
+**Recommended Reading**  
+- *C# 12 in a Nutshell* — Joseph Albahari  
+- [Official Documentation](https://learn.microsoft.com/dotnet/csharp)
+
+<br>
+<hr>
+
+### ⚙️ C++
+
+**Short Description**  
+An extension of C with object-oriented and multi-paradigm features; an ISO-standardized language offering fine-grained control over memory and performance.
+
+**Common Use Cases**  
+Game engines, embedded systems, high-performance software, machine learning libraries.
+
+**Pros**  
+- Extremely fast  
+- Low-level access to memory and hardware  
+- Rich standard library  
+- Backward compatibility with C code  
+
+**Cons**  
+- Complex syntax  
+- Manual memory management  
+- Long compilation times  
+- Potential for undefined behavior  
+
+**Recommended Reading**  
+- *The C++ Programming Language* — Bjarne Stroustrup  
+- [Online Reference](https://en.cppreference.com)
+
+<br>
+<hr>
+
+
+### ☕ Java
+
+**Short Description**  
+Object-oriented language running on the JVM, famous for its portability: “write once, run anywhere.”
+
+**Common Use Cases**  
+Enterprise back-end systems, native Android apps, financial and big data systems (Hadoop).
+
+**Pros**  
+- Mature ecosystem  
+- Huge developer community  
+- Efficient garbage collection  
+- Stable performance with JIT  
+
+**Cons**  
+- Verbose syntax  
+- Higher memory consumption  
+- Slow startup compared to compiled languages  
+
+**Recommended Reading**  
+- *Effective Java* — Joshua Bloch  
+- [Official Documentation](https://docs.oracle.com/javase)
+
+<br>
+<hr>
+
+
+### 🌐 JavaScript
+
+**Short Description**  
+Interpreted language that runs in all browsers; with Node.js, it also works on the server side.
+
+**Common Use Cases**  
+Web front-end, real-time APIs, build tools, cross-platform scripting.
+
+**Pros**  
+- Ubiquitous on the web  
+- Huge community  
+- Non-blocking asynchronous model  
+- Massive NPM ecosystem  
+
+**Cons**  
+- Dynamically typed and prone to runtime errors  
+- Rapid evolution causes fragmentation  
+- Callbacks and `this` can be confusing for beginners  
+
+**Recommended Reading**  
+- *You Don’t Know JS* (series) — Kyle Simpson  
+- [MDN Web Docs](https://developer.mozilla.org)
+
+<br>
+<hr>
+
+### 🐘 PHP
+
+**Short Description**  
+Server-side scripting language specialized in web development since its beginnings (1995).
+
+**Common Use Cases**  
+CMS platforms (WordPress, Drupal), back-ends with Laravel/Symfony, e-commerce sites, traditional shared hosting.
+
+**Pros**  
+- Low entry barrier  
+- Inexpensive deployment  
+- Extensive documentation  
+- Wide availability of shared hosting  
+
+**Cons**  
+- Inconsistent design due to historical legacy  
+- Reputation for “spaghetti code”  
+- Lower performance compared to modern alternatives  
+
+**Recommended Reading**  
+- *PHP: The Right Way* (web resource)  
+- [Official Manual](https://www.php.net/manual/en)
+
+<br>
+<hr>
+
+### 🐍 Python
+
+**Short Description**  
+Interpreted, multi-paradigm language famous for its readability and vast collection of libraries.
+
+**Common Use Cases**  
+Data science, machine learning, automation, scripting, and back-end development (Django, Flask).
+
+**Pros**  
+- Clear and concise syntax  
+- High developer productivity  
+- Huge community and ecosystem  
+- Easy C/C++ integration through extensions  
+
+**Cons**  
+- Slower execution compared to compiled languages  
+- GIL limits native multi-threading  
+- Dependency management and distribution can be tricky  
+
+**Recommended Reading**  
+- *Automate the Boring Stuff with Python* — Al Sweigart  
+- [Official Documentation](https://docs.python.org/3)
+
+<br>
+<hr>
 	
-Descripción breve	Lenguaje moderno, multiparadigma, creado por Microsoft y ejecutado sobre la plataforma .NET.
-Casos de uso comunes	Aplicaciones de escritorio (WPF/WinUI), web APIs con ASP.NET, juegos en Unity, servicios cloud en Azure.
-Pros	Tipado fuerte y seguro, excelente tooling (Visual Studio, Rider), rendimiento nativo con JIT + AOT, multiplataforma con .NET Core.
-Contras	El ecosistema sigue muy ligado a Microsoft, runtime pesado para pequeños scripts, curva de aprendizaje de .NET.
+### 💎 Ruby
 
-Bibliografía recomendada
-	•	C# 12 in a Nutshell — Joseph Albahari
-	•	Documentación oficial: https://learn.microsoft.com/dotnet/csharp
+**Short Description**  
+Dynamic, object-oriented language known for its focus on developer happiness.
 
-⸻
+**Common Use Cases**  
+Web development with Rails, DevOps scripting, automation tools (CocoaPods, Jekyll).
 
-C++
+**Pros**  
+- Elegant and expressive syntax  
+- Very high productivity with Rails  
+- Welcoming and friendly community  
 
-	
-Descripción breve	Extensión de C orientada a objetos y multiparadigma; estándar ISO con gran control de memoria y rendimiento.
-Casos de uso comunes	Motores de videojuegos, sistemas embebidos, software de alto rendimiento, bibliotecas de máquina-aprendizaje.
-Pros	Muy veloz, acceso de bajo nivel, rica biblioteca estándar, compatibilidad con código C.
-Contras	Sintaxis compleja, manejo manual de memoria, tiempos de compilación largos, undefined behavior.
+**Cons**  
+- Lower performance compared to compiled languages  
+- Smaller job market outside of Rails  
+- Declining adoption in new projects  
 
-Bibliografía recomendada
-	•	The C++ Programming Language — Bjarne Stroustrup
-	•	Referencia online: https://en.cppreference.com
+**Recommended Reading**  
+- *Programming Ruby (“Pickaxe”)* — Dave Thomas  
+- *Agile Web Development with Rails* — Sam Ruby et al.
 
-⸻
+<br>
+<hr>
 
-Java
+### 🍏 Swift
 
-	
-Descripción breve	Lenguaje orientado a objetos que corre sobre la JVM, famoso por su portabilidad “write once, run anywhere”.
-Casos de uso comunes	Back-end empresarial, Android nativo, sistemas financieros y de big data (Hadoop).
-Pros	Ecosistema maduro, enorme comunidad, recolección de basura eficiente, rendimiento estable con JIT.
-Contras	Verbosidad, mayores consumos de memoria, arranque lento comparado con lenguajes compilados.
+**Short Description**  
+General-purpose language created by Apple; designed to be safe and fast, serving as the successor to Objective-C.
 
-Bibliografía recomendada
-	•	Effective Java — Joshua Bloch
-	•	Documentación oficial: https://docs.oracle.com/javase
+**Common Use Cases**  
+Native iOS/macOS/watchOS/tvOS development, server-side frameworks (Vapor, Kitura), quick scripting with `swift sh`.
 
-⸻
+**Pros**  
+- High performance  
+- Modern and expressive syntax  
+- Strong type safety  
+- Interactive playgrounds for learning and prototyping  
 
-JavaScript
+**Cons**  
+- Primarily focused on the Apple ecosystem  
+- Frequent language changes between versions  
+- Fewer mature server-side frameworks  
 
-	
-Descripción breve	Lenguaje interpretado que corre en todos los navegadores; con Node.js también funciona en el servidor.
-Casos de uso comunes	Front-end web, APIs en tiempo real, herramientas de build, scripting multi-plataforma.
-Pros	Omnipresente en la web, gran comunidad, modelo asíncrono no bloqueante, ecosistema NPM descomunal.
-Contras	Tipado dinámico propenso a errores, rápida evolución que genera fragmentación, callbacks/this confusos para principiantes.
+**Recommended Reading**  
+- *The Swift Programming Language* (Apple Books, free)  
+- [Hacking with Swift](https://www.hackingwithswift.com)
 
-Bibliografía recomendada
-	•	You Don’t Know JS (serie) — Kyle Simpson
-	•	MDN Web Docs: https://developer.mozilla.org
+<br>
+<hr>
 
-⸻
+### 🧠 TypeScript
 
-PHP
+**Short Description**  
+A typed superset of JavaScript that compiles to plain JS; adds static types and modern language features.
 
-	
-Descripción breve	Lenguaje de scripting del lado del servidor, especializado en desarrollo web desde sus inicios (1995).
-Casos de uso comunes	CMS (WordPress, Drupal), back-ends con Laravel/Symfony, e-commerce, sitios compartidos en hosting clásico.
-Pros	Curva de entrada baja, despliegue barato, documentación abundante, gran cantidad de hosting compartido.
-Contras	Diseño inconsistente por legado histórico, reputación de código espagueti, performance menor frente a alternativas modernas.
+**Common Use Cases**  
+Large front-end applications (Angular, React, Vue), scalable Node.js APIs, shared libraries.
 
-Bibliografía recomendada
-	•	PHP: The Right Way (recurso web)
-	•	Manual oficial: https://www.php.net/manual/es
+**Pros**  
+- Gradual typing prevents many runtime errors  
+- Superior autocompletion and IDE support  
+- Easier large-scale refactoring  
+- Widely adopted in serious JavaScript projects  
 
-⸻
+**Cons**  
+- Requires an additional compilation step  
+- Learning curve for mastering the type system  
+- Potential divergence between types and runtime behavior  
 
-Python
+**Recommended Reading**  
+- *Programming TypeScript* — Boris Cherny  
+- [Official Documentation](https://www.typescriptlang.org/docs)
 
-	
-Descripción breve	Lenguaje interpretado y multiparadigma, famoso por su legibilidad y enorme colección de bibliotecas.
-Casos de uso comunes	Ciencia de datos, aprendizaje automático, automatización, scripting, back-ends (Django, Flask).
-Pros	Sintaxis clara, alta productividad, comunidad gigante, integración con C/C++ mediante extensiones.
-Contras	Ejecución más lenta que lenguajes compilados, GIL limita multi-threading nativo, distribución de dependencias puede complicarse.
+<br>
+<hr>
 
-Bibliografía recomendada
-	•	Automate the Boring Stuff with Python — Al Sweigart
-	•	Documentación oficial: https://docs.python.org/3
+### 🐚 Bash
 
-⸻
+**Short Description**  
+Unix shell and command language designed for scripting and task automation; widely used in Linux, macOS, and server environments.
 
-Ruby
+**Common Use Cases**  
+System administration, DevOps automation, CI/CD pipelines, startup scripts, and quick command-line utilities.
 
-	
-Descripción breve	Lenguaje dinámico, orientado a objetos, conocido por su énfasis en la felicidad del desarrollador.
-Casos de uso comunes	Desarrollo web con Rails, scripts DevOps, herramientas de automatización (CocoaPods, Jekyll).
-Pros	Sintaxis elegante, productividad muy alta con Rails, comunidad acogedora.
-Contras	Rendimiento inferior a alternativas compiladas, mercado laboral más pequeño fuera de Rails, menor adopción en proyectos nuevos.
+**Pros**  
+- Preinstalled on most Unix-based systems  
+- Excellent for automating repetitive tasks  
+- Integrates seamlessly with other command-line tools  
+- Ideal for lightweight, fast scripting  
 
-Bibliografía recomendada
-	•	Programming Ruby (“Pickaxe”) — Dave Thomas
-	•	Agile Web Development with Rails — Sam Ruby et al.
+**Cons**  
+- Limited data structures and error handling  
+- Syntax can be confusing or inconsistent  
+- Difficult to maintain in large scripts  
+- Portability issues between different shells (bash, sh, zsh, etc.)  
 
-⸻
-
-Swift
-
-	
-Descripción breve	Lenguaje de propósito general creado por Apple; pensado para ser seguro y rápido, sucesor de Objective-C.
-Casos de uso comunes	Desarrollo nativo iOS/macOS/watchOS/tvOS, servidores (Vapor, Kitura), scripts rápidos con swift sh.
-Pros	Alto rendimiento, sintaxis moderna, seguridad de tipos, playgrounds interactivos.
-Contras	Principalmente centrado en ecosistema Apple, el lenguaje cambia entre versiones, menor cantidad de frameworks servidores maduros.
-
-Bibliografía recomendada
-	•	The Swift Programming Language (Apple Books, gratuito)
-	•	Hacking with Swift: https://www.hackingwithswift.com
-
-⸻
-
-TypeScript
-
-	
-Descripción breve	Superset tipado de JavaScript que se transpila a JS; añade tipos estáticos y características modernas del lenguaje.
-Casos de uso comunes	Grandes aplicaciones front-end (Angular, React, Vue), APIs Node.js escalables, librerías compartidas.
-Pros	Tipado gradual que previene errores, autocompletado superior, facilita refactorizaciones, adopción masiva en proyectos serios de JS.
-Contras	Paso de compilación adicional, curva para dominar el sistema de tipos, divergencia entre tipos y comportamiento en tiempo de ejecución.
-
-Bibliografía recomendada
-	•	Programming TypeScript — Boris Cherny
-	•	Documentación oficial: https://www.typescriptlang.org/docs
-
-⸻
-
-Bash
-
-	
-
--
+**Recommended Reading**  
+- *The Linux Command Line* — William E. Shotts, Jr.  
+- [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
